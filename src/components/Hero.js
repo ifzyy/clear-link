@@ -6,7 +6,7 @@ const Hero = () => {
     AOS.init({ duration: 3000 });
   }, []);
   return (
-    <div className="add-bg">
+    <div className="add-bg mt-[100px]">
       <div className="flex xl:flex-row flex-col sm:max-lg:items-center justify-center pt-[40px] px-[50px] lg:p-[100px] justify-between">
         <div className="xl:w-[50%]" data-aos="zoom-in-up" data-aos-duration="3000">
           <h1 className="text-[30px] md:text-[32px] lg:text-[64px] font-normal font-[650] font-[inter] leading-[30px] lg:leading-[72px] ">

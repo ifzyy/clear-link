@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
 .add-bg {
   background-image: url("/public/images/bg.png");
 }
@@ -26,5 +29,13 @@ flex-wrap: wrap;
   }
   .hero__footer > img {
     width: 25%;
+  }
+
+}
+
+@media (max-width: 1024px){
+  .add-bg {
+    background-image: url("/public/images/bg.png");
+    background-size: cover;
   }
 }

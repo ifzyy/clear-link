@@ -4,16 +4,15 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    if(isOpen){
-      setIsOpen(false)
-    }
-    else{
-      setIsOpen(true)
+    if (isOpen) {
+      setIsOpen(false);
+    } else {
+      setIsOpen(true);
     }
   };
-
+ 
   return (
-    <nav className="border border-[color:var(--Gray-300,#D0D5DD)] bg-gray-100 lg:flex justify-between gap-5 px-8 py-4 lg:rounded-[100px] border-solid  lg:m-[30px]">
+    <nav class="border border-[color:var(--Gray-300,#D0D5DD)] bg-gray-100 lg:flex justify-between gap-5 px-8 py-4 lg:rounded-[100px] border-solid  lg:m-[30px]  z-10 fixed top-0 flex-no-wrap flex lg:flex-row flex-col w-[95%] lg:items-center  py-2 shadow-md shadow-black/5  ">
       <div className="flex justify-between items-center">
         <header className="flex gap-2.5 items-center">
           <img
