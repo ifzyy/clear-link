@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.add-bg {
+  background-image: url("/public/images/bg.png");
+}
+.hero__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+flex-wrap: wrap;
+  padding: 30px;
+}
+
+.hero__footer > img {
+  width: 12%;
+}
+@media (max-width: 767px) {
+  .hero__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .hero__footer > img {
+    width: 25%;
+  }
+}
