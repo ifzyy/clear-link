@@ -32,7 +32,7 @@ const Testimonial = () => {
         disableOnInteraction: false,
       }}
       modules={[EffectCreative, Autoplay]}
-      className="mySwiper2"
+      className="mySwiper2 mt-[300px]"
     >
       <SwiperSlide>
         <div className="flex xl:flex-row flex-col justify-center items-center  px-[30px] pt-[30px] lg:p-[100px] gap-[4%] bg-[#f9fafb]">
