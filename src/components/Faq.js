@@ -15,7 +15,7 @@ const Faq = () => {
         <h1 className="text-slate-800 text-5xl font-semibold leading-[60px] tracking-tighter w-full mt-3 max-md:max-w-full max-md:text-4xl">
           FAQs
         </h1>
-        <div className="text-gray-500 text-2xl leading-8  w-full mt-5 max-md:max-w-full">
+        <div className="text-gray-500  text-[20px] lg:text-2xl leading-8  w-full mt-5 max-md:max-w-full">
           Everything you need to know about the product and billing. Can't find
           the answer you're looking for? Please chat to our friendly team .
         </div>
